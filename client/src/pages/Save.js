@@ -26,7 +26,7 @@ class SavePage extends Component {
                 })
             )
             .catch(err => console.log(err));
-            console.log(this.state.books)
+            
     };
 
     deleteBook = id => {
@@ -38,16 +38,16 @@ class SavePage extends Component {
 
     render() {
         return (
-            <div>
+            <div className="text-light bg-dark">
                 <h1 className="text-center"> Saved Books </h1>
                 {this.state.books.map(book =>
-                    <CardSaveBook key={book.id}
+                    <CardSaveBook key={book._id}
                         title={book.title}
                         author={book.authors}
                         body={book.description}
                         image={book.image}
                         link={book.link}
-                        deleteBtn={() => this.deleteBook(book.id)}
+                        deleteBtn={() => this.deleteBook(book._id)}
                         >
                     </CardSaveBook>
                  )} 

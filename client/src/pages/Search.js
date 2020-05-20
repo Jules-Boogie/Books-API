@@ -57,11 +57,14 @@ class SearchPage extends Component{
                 image:book[0].volumeInfo.imageLinks.smallThumbnail,
                 link:book[0].volumeInfo.infoLink 
             })
+
+            window.location.replace("/saved")
+
         // })
     }
     render() {
         return (
-            <div className="container">
+            <div className="container text-light bg-dark">
                 {/* <Navbar /> */}
                 <SearchForm change={this.handleInputChange}
                     clicked={this.handleSearchClick}

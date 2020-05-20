@@ -14,7 +14,7 @@ const CardSearchBook = (props) => {
     // }
 
     return (
-        <div className="container text-center row mr-0px">
+        <div className="container text-dark text-center row mr-0px">
             <div className="card col" style={{ width: '80rem' }}>
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
@@ -31,11 +31,11 @@ const CardSearchBook = (props) => {
                             </div>
                         </div>
                     </div>
-                <a className="btn btn-light pr-3" href={props.link} target="_blank" rel='noreferrer noopener'>
-                        view
+                <a className="btn btn-info pr-3" href={props.link} target="_blank" rel='noreferrer noopener'>
+                        More Info
                  </a>
-                    <button className="btn btn-light" onClick={props.save}>
-                        save
+                    <button className="btn btn-success" onClick={props.save}>
+                        Add to Favorites
                  </button>
                 </div>
             </div>
