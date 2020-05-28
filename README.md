@@ -8,7 +8,7 @@ The Google Books App was created using ReactJs, ExpressJS, Google Books API Mong
 ## App Photo
 ![App Photo](https://github.com/Jules-Boogie/Books-API/blob/master/assets/Capture.PNG)
 
-##DeployedLink
+## DeployedLink
 https://googlesearchbooksz.herokuapp.com/
 
 
@@ -70,3 +70,8 @@ Juliet George
 
 **Contact:**
 [LinkedIn](https://www.linkedin.com/in/juliet-george-864950b8/)
+
+
+## Contributors
+
+Kerwin Hy, my TA, who played a significant part in helping me deploy my very first MERN stack. 
