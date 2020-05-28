@@ -74,5 +74,6 @@ Juliet George
 
 ## Contributors
 Kerwin Hy, my TA, who played a significant part in helping me deploy my very first MERN stack. 
-Cristina Terry
-Brad Davis
+
+**Cristina Terry
+**Brad Davis
